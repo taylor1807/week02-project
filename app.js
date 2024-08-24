@@ -1,5 +1,7 @@
 console.log("testing");
 
+let currentIndex = 0;
+
 const fullSizeImageContainer = document.getElementById(
   "fullSizeImageContainer"
 );
@@ -12,7 +14,7 @@ let images = [
       "./assets/Emperor-400.webp 400w, ./assets/Emperor-800.webp 800w, ./assets/Emperor-1200.webp 1200w, ./assets/Emperor-1600.webp 1600w",
     alt: "in the emperors name",
     ariaLabel:
-      "My armor is contemp, my shield is disgust, my sword is hatred, in the emperors name let none survive",
+      "My armor is contempt, my shield is disgust, my sword is hatred, in the emperors name let none survive",
   },
   {
     src: "./assets/Dread-1600.webp",
@@ -77,3 +79,23 @@ function addFullSizeImage(largeImage) {
   largeImageElement.alt = largeImage.alt;
   fullSizeImageContainer.appendChild(largeImageElement);
 }
+
+const backButton = document.getElementById("backButton");
+const nextButton = document.getElementById("nextButton");
+
+function nextImage() {
+  currentIndex++;
+  fullSizeImageContainer.src = images[currentIndex].src;
+}
+function previousImage() {
+  currentIndex--;
+  fullSizeImageContainer.src = images[currentIndex].src;
+}
+
+backButton.addEventListener("click", function () {
+  previousImage();
+});
+
+nextButton.addEventListener("click", function () {
+  nextImage();
+});

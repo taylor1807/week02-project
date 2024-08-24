@@ -8,8 +8,17 @@
     <title>Week 2 Assignment: Build an Accessible Image Gallery</title>
     <link rel="icon" type="image/x-icon" href="/assets/favicon.webp" />
   </head>
-  <body>
-    <div id="fullSizeImageContainer"></div>
+    <div id="fullSizeImageContainer"><img id='fullSizeImage' src="./assets/Emperor-1600.webp"
+      srcset="
+        ./assets/Emperor-400.webp   400w,
+        ./assets/Emperor-800.webp   800w,
+        ./assets/Emperor-1200.webp 1200w,
+        ./assets/Emperor-1600.webp 1600w
+      "
+      alt="in the emperors name"
+      aria-label="My armor is contempt, my shield is disgust, my sword is hatred, in the emperors name let none survive"/></div>
     <div id="thumbnailBar"></div>
+    <div id="backButton"><button>Previous</button></div>
+    <div id="nextButton"><button>Next</button></div>
   </body>
 </html>

@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+#thumbnailBar {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+img {
+  height: 5vh;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+#fullSizeImageContainer > * {
+  height: 100vh;
+}
+@media (min-width: 800px) {
+  #thumbnailBar {
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+  }
+  img {
+    height: 12vh;
+  }
+}

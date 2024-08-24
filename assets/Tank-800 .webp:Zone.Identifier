@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/69ff5889-b001-47ec-8379-4a9160c78ad9/Tank-800%20.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240824%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240824T134139Z&X-Amz-Expires=86400&X-Amz-Signature=eff7b31707f563a961ca4f1314044dca990f5a773f7f8f6b889ad6e40ddae3cb&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Tank-800%20.webp%22&response-content-type=image%2Fwebp&x-id=GetObject

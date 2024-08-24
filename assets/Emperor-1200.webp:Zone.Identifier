@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/cd8c9372-8250-4d5b-84d2-af726e7cbbf9/Emperor-1200.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240824%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240824T133321Z&X-Amz-Expires=86400&X-Amz-Signature=e5825b5a31233b18eacb1a0cf032bcd421d212c925ba71d6d74630a66332b916&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Emperor-1200.webp%22&response-content-type=image%2Fwebp&x-id=GetObject

@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/426733c3-5b54-430d-aadf-97c4867b4901/Marine-800%20.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20240824%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20240824T134013Z&X-Amz-Expires=86400&X-Amz-Signature=5cfbcc5eeee13232a3c20451d9b00d988a6222e7b1ea077e26fc0bb9e80be965&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22Marine-800%20.webp%22&response-content-type=image%2Fwebp&x-id=GetObject

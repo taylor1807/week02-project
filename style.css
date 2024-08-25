@@ -41,7 +41,6 @@ body {
   position: absolute;
   left: 1rem;
   top: 25%;
-  font-size: 1rem;
 }
 #nextButton {
   position: absolute;
@@ -49,10 +48,14 @@ body {
   top: 25%;
 }
 button {
-  background-color: red;
-  color: white;
+  background-color: black;
+  border: 1px solid blue;
+  color: gold;
   height: 5vh;
-  font-size: 1rem;
+  width: 5vh;
+  font-size: 3rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  border-radius: 2rem;
+  border-radius: 5vh;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }

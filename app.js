@@ -80,22 +80,45 @@ function addFullSizeImage(largeImage) {
   fullSizeImageContainer.appendChild(largeImageElement);
 }
 
-const backButton = document.getElementById("backButton");
-const nextButton = document.getElementById("nextButton");
+const back = document.getElementById("back");
+const next = document.getElementById("next");
+const fullSizeImage = document.getElementById("fullSizeImage");
 
 function nextImage() {
-  currentIndex++;
-  fullSizeImageContainer.src = images[currentIndex].src;
+  if (currentIndex < images.length - 1) {
+    currentIndex++;
+  } else {
+    currentIndex = 0;
+  }
+  addFullSizeImage(images[currentIndex]);
 }
 function previousImage() {
-  currentIndex--;
-  fullSizeImageContainer.src = images[currentIndex].src;
+  if (currentIndex > 0) {
+    currentIndex--;
+  } else {
+    currentIndex = images.length - 1;
+  }
+  addFullSizeImage(images[currentIndex]);
 }
 
-backButton.addEventListener("click", function () {
+back.addEventListener("click", function (event) {
   previousImage();
 });
 
-nextButton.addEventListener("click", function () {
+next.addEventListener("click", function (event) {
   nextImage();
+});
+
+document.addEventListener("keydown", function (event) {
+  //   console.log(event);
+  // });
+  if (event.key === "ArrowLeft") {
+    previousImage();
+  }
+});
+
+document.addEventListener("keydown", function (event) {
+  if (event.key === "ArrowRight") {
+    nextImage();
+  }
 });

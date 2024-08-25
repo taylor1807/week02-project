@@ -26,34 +26,36 @@ body {
 @media (min-width: 800px) {
   #thumbnailBar {
     position: absolute;
-    bottom: 1rem;
+    bottom: 1vh;
     width: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 1rem;
+    padding: 1vh;
     height: 20vh;
     border: 2px solid red;
     border-radius: 25px;
+    left: auto;
   }
 }
 #backButton {
   position: absolute;
-  left: 1rem;
+  left: 1vh;
   top: 25%;
 }
 #nextButton {
   position: absolute;
-  right: 1rem;
+  right: 1vh;
   top: 25%;
 }
+/* height, width and font set as vh to change size as the screen does */
 button {
   background-color: black;
   border: 1px solid blue;
   color: gold;
   height: 5vh;
   width: 5vh;
-  font-size: 3rem;
+  font-size: 3vh;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   border-radius: 5vh;
   text-align: center;

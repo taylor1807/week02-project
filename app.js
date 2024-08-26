@@ -82,7 +82,6 @@ function addFullSizeImage(largeImage) {
 
 const back = document.getElementById("back");
 const next = document.getElementById("next");
-const fullSizeImage = document.getElementById("fullSizeImage");
 
 function nextImage() {
   if (currentIndex < images.length - 1) {
